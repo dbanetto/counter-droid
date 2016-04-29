@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.drb.learning.MainActivity">
+    <item
+        android:id="@+id/select_decimal"
+        android:orderInCategory="100"
+        android:title="@string/select_decimal"
+        app:showAsAction="never"
+        android:onClick="selectDecimal"/>
+    <item
+        android:id="@+id/select_hexadecimal"
+        android:orderInCategory="100"
+        android:title="@string/select_hexadecimal"
+        app:showAsAction="never"
+        android:onClick="selectHexadecimal"/>
+</menu>
